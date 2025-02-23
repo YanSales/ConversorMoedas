@@ -58,5 +58,5 @@ Siga o [guia de deploy no Azure for Students](DEPLOY.md) para hospedar gratuitam
 
 ---
 
-Feito com ❤️ por [Seu Nome](https://github.com/YanSales) | [![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=flat)](https://www.buymeacoffee.com/seu-usuario)
+Feito com ❤️ por [Yan Sales](https://github.com/YanSales) | [![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=flat)](https://www.buymeacoffee.com/seu-usuario)
 
