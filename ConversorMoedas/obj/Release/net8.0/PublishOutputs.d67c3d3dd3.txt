@@ -1,0 +1,8 @@
+A:\Giselly\Documents\dotnet\ConversorMoedas\ConversorMoedas\publish\ConversorMoedas.exe
+A:\Giselly\Documents\dotnet\ConversorMoedas\ConversorMoedas\publish\appsettings.Development.json
+A:\Giselly\Documents\dotnet\ConversorMoedas\ConversorMoedas\publish\appsettings.json
+A:\Giselly\Documents\dotnet\ConversorMoedas\ConversorMoedas\publish\ConversorMoedas.dll
+A:\Giselly\Documents\dotnet\ConversorMoedas\ConversorMoedas\publish\ConversorMoedas.deps.json
+A:\Giselly\Documents\dotnet\ConversorMoedas\ConversorMoedas\publish\ConversorMoedas.runtimeconfig.json
+A:\Giselly\Documents\dotnet\ConversorMoedas\ConversorMoedas\publish\ConversorMoedas.pdb
+A:\Giselly\Documents\dotnet\ConversorMoedas\ConversorMoedas\publish\Newtonsoft.Json.dll

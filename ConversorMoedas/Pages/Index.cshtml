@@ -1,0 +1,101 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Conversor de Moedas Online Gratuito";
+}
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Conversor de Moedas</h1>
+
+    <!-- Área para Anúncio Topo -->
+    <div class="mb-4 text-center">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6740658443846581"
+     crossorigin="anonymous"></script>
+<!-- ConversorMoedas -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6740658443846581"
+     data-ad-slot="9100611349"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXX" data-ad-slot="YYYYY"
+            data-ad-format="auto"></ins>
+    </div>
+
+    <form method="post" class="mb-4">
+        <div class="row">
+            <div class="col-md-3">
+                <input type="number" class="form-control" step="0.01" asp-for="Amount" placeholder="Valor" required>
+            </div>
+            <div class="col-md-3">
+                <select class="form-select" asp-for="FromCurrency">
+                    <!-- Moedas Principais -->
+                    <option value="USD">Dólar Americano (USD)</option>
+                    <option value="BRL">Real Brasileiro (BRL)</option>
+                    <option value="EUR">Euro (EUR)</option>
+                    <option value="GBP">Libra Esterlina (GBP)</option>
+                    <option value="JPY">Iene Japonês (JPY)</option>
+                    <option value="CAD">Dólar Canadense (CAD)</option>
+                    <option value="AUD">Dólar Australiano (AUD)</option>
+
+                    <!-- Outras Moedas -->
+                    <option value="CHF">Franco Suíço (CHF)</option>
+                    <option value="CNY">Yuan Chinês (CNY)</option>
+                    <option value="RUB">Rublo Russo (RUB)</option>
+                    <option value="INR">Rúpia Indiana (INR)</option>
+                    <option value="MXN">Peso Mexicano (MXN)</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <select class="form-select" asp-for="ToCurrency">
+                    <!-- Moedas Principais -->
+                    <option value="USD">Dólar Americano (USD)</option>
+                    <option value="BRL">Real Brasileiro (BRL)</option>
+                    <option value="EUR">Euro (EUR)</option>
+                    <option value="GBP">Libra Esterlina (GBP)</option>
+                    <option value="JPY">Iene Japonês (JPY)</option>
+                    <option value="CAD">Dólar Canadense (CAD)</option>
+                    <option value="AUD">Dólar Australiano (AUD)</option>
+
+                    <!-- Outras Moedas -->
+                    <option value="CHF">Franco Suíço (CHF)</option>
+                    <option value="CNY">Yuan Chinês (CNY)</option>
+                    <option value="RUB">Rublo Russo (RUB)</option>
+                    <option value="INR">Rúpia Indiana (INR)</option>
+                    <option value="MXN">Peso Mexicano (MXN)</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <button type="submit" class="btn btn-primary w-100">Converter</button>
+            </div>
+        </div>
+    </form>
+
+    <!-- Resultado -->
+    @if (Model.ConvertedAmount != 0)
+    {
+        <div class="alert alert-success text-center">
+            <h3>@Model.Amount @Model.FromCurrency = @Model.ConvertedAmount.ToString("N2") @Model.ToCurrency</h3>
+        </div>
+    }
+
+    <!-- Área para Anúncio Resultado -->
+    <div class="mt-4 text-center">
+       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6740658443846581"
+     crossorigin="anonymous"></script>
+<!-- ConversorMoedas -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6740658443846581"
+     data-ad-slot="9100611349"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXX" data-ad-slot="ZZZZZ"></ins>
+    </div>
+</div>
