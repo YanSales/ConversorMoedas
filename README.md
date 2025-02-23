@@ -25,7 +25,7 @@ Um conversor de moedas simples desenvolvido em C# (ASP.NET Core) para conversõe
 ## 🚀 Instalação
 
 # Clone o repositório
-git clone https://github.com/seu-usuario/conversor-moedas.git
+git clone https://github.com/YanSales/ConversorMoedas.git
 
 # Entre na pasta do projeto
 cd conversor-moedas
