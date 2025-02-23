@@ -1,4 +1,3 @@
-```markdown
 # Conversor de Moedas Online 💰
 
 [![.NET](https://img.shields.io/badge/.NET-8.0-blue)](https://dotnet.microsoft.com/)
@@ -24,7 +23,7 @@ Um conversor de moedas simples desenvolvido em C# (ASP.NET Core) para conversõe
 - API Key gratuita do [ExchangeRate-API](https://www.exchangerate-api.com/)
 
 ## 🚀 Instalação
-```bash
+
 # Clone o repositório
 git clone https://github.com/seu-usuario/conversor-moedas.git
 
@@ -36,17 +35,17 @@ dotnet restore
 
 # Execute o projeto
 dotnet run
-```
+
 
 ## ⚙️ Configuração
 1. **API Key**:
    - Registre-se no [ExchangeRate-API](https://www.exchangerate-api.com/)
    - Adicione a chave em `appsettings.json`:
-     ```json
+    
      {
        "ExchangeRateApiKey": "SUA_CHAVE_AQUI"
      }
-     ```
+    
 
 2. **AdSense**:
    - Substitua `ca-pub-XXXXX` e `data-ad-slot` no arquivo `Index.cshtml` pelos códigos da sua conta.
@@ -60,4 +59,4 @@ Siga o [guia de deploy no Azure for Students](DEPLOY.md) para hospedar gratuitam
 ---
 
 Feito com ❤️ por [Seu Nome](https://github.com/YanSales) | [![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=flat)](https://www.buymeacoffee.com/seu-usuario)
-```
+
