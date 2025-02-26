@@ -31,3 +31,9 @@ A:\Giselly\Documents\dotnet\ConversorMoedas\ConversorMoedas\obj\Debug\net8.0\ref
 A:\Giselly\Documents\dotnet\ConversorMoedas\ConversorMoedas\obj\Debug\net8.0\ConversorMoedas.pdb
 A:\Giselly\Documents\dotnet\ConversorMoedas\ConversorMoedas\obj\Debug\net8.0\ConversorMoedas.genruntimeconfig.cache
 A:\Giselly\Documents\dotnet\ConversorMoedas\ConversorMoedas\obj\Debug\net8.0\ref\ConversorMoedas.dll
+A:\Giselly\Documents\dotnet\ConversorMoedas\ConversorMoedas\bin\Debug\net8.0\publish\web.config
+A:\Giselly\Documents\dotnet\ConversorMoedas\ConversorMoedas\bin\Debug\net8.0\publish\appsettings.Development.json
+A:\Giselly\Documents\dotnet\ConversorMoedas\ConversorMoedas\bin\Debug\net8.0\publish\appsettings.json
+A:\Giselly\Documents\dotnet\ConversorMoedas\ConversorMoedas\bin\Debug\net8.0\publish\ConversorMoedas.deps.json
+A:\Giselly\Documents\dotnet\ConversorMoedas\ConversorMoedas\bin\Debug\net8.0\publish\ConversorMoedas.runtimeconfig.json
+A:\Giselly\Documents\dotnet\ConversorMoedas\ConversorMoedas\obj\Debug\net8.0\ConversorMoedas.sourcelink.json
